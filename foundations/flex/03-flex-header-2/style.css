@@ -45,7 +45,14 @@ a {
   text-decoration: none;
   color: rebeccapurple;
 }
-
+.left-bar,
+.right-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+}
 ul {
   list-style-type: none;
   display: flex;
